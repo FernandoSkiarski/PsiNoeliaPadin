@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Lic. Noelia Padin | Psicóloga clínica especializada en vínculos. Núñez y online</title>
+<meta name="description" content="Psicóloga clínica especializada en vínculos. Más de 13 años de experiencia y 1000 pacientes atendidos. Terapia de pareja, ansiedad y depresión. Consultorio en Núñez, CABA y sesiones online.">
+<link rel="canonical" href="https://noeliapadin.com/">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:url" content="https://noeliapadin.com/">
+<meta property="og:title" content="Lic. Noelia Padin | Psicóloga clínica en Núñez y online">
+<meta property="og:description" content="Ansiedad, depresión y terapia de pareja. Más de 12 años de experiencia. Consultorio en Núñez, CABA y sesiones online.">
+<meta property="og:image" content="https://cdn.prod.website-files.com/664cd401a0551a929b61d73f/664d128a85dcd07252e6f26c_NoePsi320x400.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!--
+  ===========================================================================
+  GOOGLE TAG MANAGER
+  Pegar acá el snippet de <head> del contenedor GTM-PBF254R5 tal cual está
+  hoy en Webflow. El contenedor vive en GTM, no en el sitio: tags, triggers
+  y variables quedan intactos.
+
+  Para que los triggers de click no se rompan, los CTA de esta página llevan
+  IDs y clases estables:
+    .js-cta-whatsapp   -> todos los botones de WhatsApp
+    .js-cta-email      -> botón de mail
+    .js-cta-maps       -> botón de ubicación
+    .js-cta-instagram  -> links a Instagram
+    .js-cta-spotify    -> links al programa de radio
+  Revisar en GTM contra qué selector matchean los triggers actuales y
+  actualizarlos ANTES de publicar.
+
+  Ojo: hoy el sitio carga GA4 (G-DP823VHLPY) por gtag directo Y por GTM.
+  Dejar una sola de las dos vías para no duplicar sesiones.
+  ===========================================================================
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Psychiatric",
+  "@id": "https://noeliapadin.com/#consultorio",
+  "name": "Lic. Noelia Padin, Psicóloga Clínica",
+  "url": "https://noeliapadin.com/",
+  "image": "https://cdn.prod.website-files.com/664cd401a0551a929b61d73f/664d128a85dcd07252e6f26c_NoePsi320x400.jpeg",
+  "description": "Psicóloga clínica especializada en vínculos. Terapia de pareja, ansiedad y depresión. Consultorio en Núñez, CABA y sesiones online.",
+  "telephone": "+541138921412",
+  "email": "padin.noelia@hotmail.com.ar",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Núñez",
+    "addressRegion": "Ciudad Autónoma de Buenos Aires",
+    "addressCountry": "AR"
+  },
+  "areaServed": ["Ciudad Autónoma de Buenos Aires", "Argentina"],
+  "availableService": [
+    {"@type": "MedicalTherapy", "name": "Terapia para ansiedad y depresión"},
+    {"@type": "MedicalTherapy", "name": "Terapia de pareja"}
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Noelia Padin",
+    "honorificPrefix": "Lic.",
+    "jobTitle": "Licenciada en Psicología",
+    "identifier": "M.N. 57282 / M.P. 73629",
+    "sameAs": [
+      "https://www.instagram.com/psi.noeliapadin",
+      "https://www.linkedin.com/in/noelia-padin-7838a486/"
+    ]
+  }
+}
+</script>
+
+<style>
+/* ===========================================================================
+   Sistema visual. Paleta tomada del sitio actual, sin cambios de color.
+   =========================================================================== */
+:root{
+  --petroleo:#2F4F4F;
+  --petroleo-osc:#274242;
+  --pizarra:#3C4447;
+  --pizarra-2:#4F585B;
+  --pizarra-3:#5C666A;
+  --salvia:#A3B5A2;
+  --salvia-claro:#BECBBD;
+  --salvia-suave:#E4EAE2;
+  --dorado:#B18F51;
+  --dorado-claro:#CBA868;
+  --crema:#F3F2ED;
+  --blanco:#FFFFFF;
+  --texto:#2B3134;
+  --texto-suave:#5C666A;
+  --texto-inv:#E6E8E5;
+  --texto-inv-suave:#B9C0BD;
+
+  --radio:14px;
+  --radio-lg:22px;
+  --sombra:0 1px 2px rgba(20,28,30,.05), 0 8px 28px rgba(20,28,30,.07);
+  --sombra-alta:0 2px 4px rgba(20,28,30,.06), 0 18px 48px rgba(20,28,30,.14);
+  --max:1180px;
+  --gutter:clamp(20px, 5vw, 48px);
+  --header-h:76px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--crema);
+  color:var(--texto);
+  font-family:"Noto Sans", system-ui, -apple-system, sans-serif;
+  font-size:17px;
+  line-height:1.72;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;height:auto}
+a{color:inherit}
+h1,h2,h3,h4{
+  font-family:"Inter", system-ui, sans-serif;
+  margin:0;
+  line-height:1.14;
+  letter-spacing:-.02em;
+  font-weight:600;
+}
+p{margin:0 0 1.05em}
+p:last-child{margin-bottom:0}
+
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--gutter)}
+.hero__in>*,.clinica>*,.grid-2>*,.grid-3>*,.fases>*,.stats>*,.radio-bloque>*,.contacto__grid>*,.footer__grid>*,.franja__in>*{min-width:0}
+.clinica img,.hero__figura img{width:100%}
+section{scroll-margin-top:calc(var(--header-h) + 12px)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* --------------------------------------------------------------- Botones */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.6em;
+  font-family:"Inter",sans-serif;font-size:15px;font-weight:600;
+  letter-spacing:.01em;line-height:1;
+  padding:16px 28px;border-radius:999px;border:1.5px solid transparent;
+  text-decoration:none;cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease;
+}
+.btn svg{width:19px;height:19px;flex:none}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible{outline:3px solid var(--dorado-claro);outline-offset:3px}
+
+.btn--oro{background:var(--dorado);color:#1E2224;box-shadow:0 6px 18px rgba(177,143,81,.28)}
+.btn--oro:hover{background:var(--dorado-claro);box-shadow:0 10px 26px rgba(177,143,81,.38)}
+
+
+.btn--ghost{border-color:rgba(230,232,229,.38);color:var(--texto-inv)}
+.btn--ghost:hover{border-color:var(--dorado-claro);color:var(--dorado-claro)}
+
+.btn--ghost-osc{border-color:rgba(60,68,71,.3);color:var(--pizarra)}
+.btn--ghost-osc:hover{border-color:var(--dorado);color:var(--dorado)}
+
+.btn--sm{padding:12px 22px;font-size:14px}
+.btn--block{width:100%}
+
+/* --------------------------------------------------------------- Header */
+.header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(60,68,71,.92);
+  backdrop-filter:saturate(1.4) blur(12px);
+  -webkit-backdrop-filter:saturate(1.4) blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.07);
+}
+.header__in{
+  height:var(--header-h);
+  display:flex;align-items:center;justify-content:space-between;gap:24px;
+}
+.header__logo{display:flex;align-items:center;text-decoration:none}
+.header__logo img{height:30px;width:auto}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{
+  font-family:"Inter",sans-serif;font-size:14px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--texto-inv-suave);text-decoration:none;
+  padding:6px 0;position:relative;transition:color .18s ease;
+}
+.nav a::after{
+  content:"";position:absolute;left:0;right:100%;bottom:0;height:1.5px;
+  background:var(--dorado-claro);transition:right .25s ease;
+}
+.nav a:hover{color:var(--blanco)}
+.nav a:hover::after{right:0}
+.header .btn{padding:12px 24px}
+
+.burger{
+  display:none;background:none;border:0;padding:8px;cursor:pointer;
+  color:var(--texto-inv);
+}
+.burger svg{width:26px;height:26px;display:block}
+
+@media (max-width:900px){
+  .nav{
+    position:fixed;inset:var(--header-h) 0 auto 0;
+    flex-direction:column;align-items:stretch;gap:0;
+    background:var(--pizarra);padding:8px var(--gutter) 28px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+    transform:translateY(-12px);opacity:0;pointer-events:none;
+    transition:opacity .2s ease, transform .2s ease;
+  }
+  .nav[data-open="true"]{transform:none;opacity:1;pointer-events:auto}
+  .nav a{padding:15px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:15px}
+  .nav a::after{display:none}
+  .header__cta{display:none}
+  .burger{display:block}
+}
+
+/* --------------------------------------------------------------- Hero */
+.hero{background:var(--pizarra);color:var(--texto-inv);position:relative;overflow:hidden}
+.hero::before{
+  content:"";position:absolute;inset:auto -10% -40% 55%;height:70%;
+  background:radial-gradient(closest-side, rgba(177,143,81,.16), transparent 70%);
+  pointer-events:none;
+}
+.hero__in{
+  display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(32px,5vw,72px);
+  align-items:center;padding-block:clamp(56px,7vw,96px) clamp(60px,8vw,104px);
+  position:relative;
+}
+.eyebrow{
+  font-family:"Inter",sans-serif;font-size:12.5px;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--dorado-claro);
+  margin:0 0 18px;display:flex;align-items:center;gap:12px;
+}
+.eyebrow::after{content:"";height:1px;flex:1;max-width:70px;background:rgba(203,168,104,.45)}
+.eyebrow--centro{justify-content:center}
+.eyebrow--centro::before{content:"";height:1px;flex:1;max-width:70px;background:rgba(203,168,104,.45)}
+
+.hero h1{
+  font-size:clamp(38px,5.4vw,62px);font-weight:600;color:#F0F1EE;
+  margin-bottom:14px;
+}
+.hero h1 .apellido{color:var(--dorado-claro)}
+.hero__sub{
+  font-family:"Inter",sans-serif;font-size:clamp(17px,2vw,21px);
+  font-weight:400;line-height:1.5;color:var(--salvia-claro);
+  margin:0 0 26px;letter-spacing:-.01em;
+}
+.hero p{color:var(--texto-inv-suave);max-width:54ch}
+.hero__acciones{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.hero__mat{
+  margin-top:28px;font-size:13.5px;color:rgba(185,192,189,.75);
+  font-family:"Inter",sans-serif;letter-spacing:.04em;
+}
+
+.hero__figura{position:relative;justify-self:center}
+.hero__figura img{
+  border-radius:var(--radio-lg);width:min(400px,100%);
+  box-shadow:var(--sombra-alta);position:relative;z-index:2;
+}
+.hero__figura::after{
+  content:"";position:absolute;inset:18px -18px -18px 18px;
+  border:1.5px solid rgba(203,168,104,.55);border-radius:var(--radio-lg);z-index:1;
+}
+
+@media (max-width:860px){
+  .hero__in{grid-template-columns:1fr;text-align:left;padding-top:44px}
+  .hero__figura{order:-1;justify-self:start}
+  .hero__figura img{width:min(300px,72vw)}
+  .hero__figura::after{inset:14px -14px -14px 14px}
+}
+
+/* --------------------------------------------------------------- Franja */
+.franja{background:var(--petroleo);color:var(--texto-inv)}
+.franja__in{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:4px;
+}
+.franja__item{
+  padding:26px 28px;display:flex;align-items:center;gap:14px;
+  font-family:"Inter",sans-serif;font-size:14.5px;font-weight:500;
+  letter-spacing:.01em;line-height:1.35;
+}
+.franja__item + .franja__item{border-left:1px solid rgba(255,255,255,.1)}
+.franja__item svg{width:22px;height:22px;flex:none;color:var(--dorado-claro)}
+.franja__item b{
+  font-size:20px;font-weight:700;color:var(--dorado-claro);
+  letter-spacing:-.02em;margin-right:2px;
+}
+@media (max-width:760px){
+  .franja__in{grid-template-columns:1fr}
+  .franja__item + .franja__item{border-left:0;border-top:1px solid rgba(255,255,255,.1)}
+  .franja__item{padding:18px 0}
+}
+
+/* --------------------------------------------------------------- Secciones */
+.sec{padding:clamp(64px,8vw,112px) 0}
+.sec--salvia{background:var(--salvia);color:#243028}
+.sec--crema{background:var(--crema)}
+.sec--blanco{background:var(--blanco)}
+.sec--petroleo{background:var(--petroleo);color:var(--texto-inv)}
+.sec--pizarra{background:var(--pizarra);color:var(--texto-inv)}
+
+.sec__head{max-width:760px;margin:0 auto clamp(40px,5vw,60px);text-align:center}
+.sec__head h2{font-size:clamp(30px,3.9vw,44px);font-weight:700;margin-bottom:16px}
+.sec--salvia .sec__head h2{color:var(--petroleo-osc)}
+.sec--crema .sec__head h2,.sec--blanco .sec__head h2{color:var(--pizarra)}
+.sec--petroleo .sec__head h2,.sec--pizarra .sec__head h2{color:#F0F1EE}
+.sec__head p{font-size:17.5px;color:inherit;opacity:.88;margin:0}
+.sec--salvia .eyebrow{color:var(--petroleo-osc);opacity:.8}
+.sec--salvia .eyebrow::after,.sec--salvia .eyebrow::before{background:rgba(39,66,66,.35)}
+.sec--crema .eyebrow,.sec--blanco .eyebrow{color:var(--dorado)}
+.sec--crema .eyebrow::after,.sec--crema .eyebrow::before,
+.sec--blanco .eyebrow::after,.sec--blanco .eyebrow::before{background:rgba(177,143,81,.4)}
+
+/* --------------------------------------------------------------- Cards */
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(20px,2.6vw,30px)}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,2.6vw,30px)}
+@media (max-width:860px){.grid-2,.grid-3{grid-template-columns:1fr}}
+
+.card{
+  background:var(--blanco);border-radius:var(--radio-lg);
+  padding:clamp(28px,3.4vw,40px);box-shadow:var(--sombra);
+  border:1px solid rgba(43,49,52,.06);
+  display:flex;flex-direction:column;
+  transition:transform .22s ease, box-shadow .22s ease;
+}
+.card:hover{transform:translateY(-4px);box-shadow:var(--sombra-alta)}
+.card__icono{
+  width:52px;height:52px;border-radius:14px;display:grid;place-items:center;
+  background:var(--salvia-suave);color:var(--petroleo);margin-bottom:22px;
+}
+.card__icono svg{width:26px;height:26px}
+.card h3{font-size:22px;font-weight:600;color:var(--pizarra);margin-bottom:14px}
+.card p{color:var(--texto-suave);font-size:16.5px}
+.card__lista{margin:6px 0 0;padding:0;list-style:none}
+.card__lista li{
+  position:relative;padding-left:26px;margin-bottom:9px;
+  font-size:16px;color:var(--texto-suave);line-height:1.6;
+}
+.card__lista li::before{
+  content:"";position:absolute;left:0;top:10px;width:9px;height:9px;
+  border-radius:50%;border:2px solid var(--dorado);
+}
+.card__pie{margin-top:auto;padding-top:26px}
+
+/* --------------------------------------------------------------- Clínica */
+.clinica{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(32px,5vw,68px);align-items:center}
+.clinica img{border-radius:var(--radio-lg);box-shadow:var(--sombra-alta)}
+.clinica h2{font-size:clamp(30px,3.9vw,44px);font-weight:700;color:#F0F1EE;margin-bottom:20px}
+.clinica p{color:var(--texto-inv-suave);font-size:17.5px;max-width:56ch}
+.clinica blockquote{
+  margin:28px 0 0;padding:18px 0 18px 24px;
+  border-left:2px solid var(--dorado);
+  font-family:"Inter",sans-serif;font-size:19px;line-height:1.5;
+  color:var(--salvia-claro);font-style:normal;letter-spacing:-.01em;
+}
+@media (max-width:860px){.clinica{grid-template-columns:1fr}}
+
+/* --------------------------------------------------------------- Fases */
+.fases{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,2.6vw,28px);counter-reset:fase}
+@media (max-width:860px){.fases{grid-template-columns:1fr}}
+.fase{
+  background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.12);
+  border-radius:var(--radio-lg);padding:clamp(26px,3.2vw,36px);
+  position:relative;counter-increment:fase;
+}
+.fase__num{
+  font-family:"Inter",sans-serif;font-size:13px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dorado-claro);
+  margin-bottom:14px;display:block;
+}
+.fase h3{font-size:21px;color:#F0F1EE;margin-bottom:6px}
+.fase__claim{
+  font-family:"Inter",sans-serif;font-size:15.5px;color:var(--salvia-claro);
+  margin:0 0 16px;letter-spacing:-.01em;
+}
+.fase p{color:var(--texto-inv-suave);font-size:16px}
+.fase ul{margin:14px 0 0;padding:0;list-style:none}
+.fase li{
+  position:relative;padding-left:24px;margin-bottom:8px;
+  font-size:15.5px;color:var(--texto-inv-suave);line-height:1.55;
+}
+.fase li::before{
+  content:"";position:absolute;left:2px;top:9px;width:8px;height:8px;
+  border-radius:50%;background:var(--dorado);
+}
+
+/* --------------------------------------------------------------- Testimonios */
+.testi{
+  background:var(--blanco);border-radius:var(--radio-lg);
+  padding:clamp(28px,3.4vw,38px);box-shadow:var(--sombra);
+  border:1px solid rgba(43,49,52,.06);display:flex;flex-direction:column;
+}
+.testi__comillas{font-family:"Inter",sans-serif;font-size:44px;line-height:.7;color:var(--dorado);opacity:.45;margin-bottom:14px}
+.testi p{font-size:17px;color:var(--texto);line-height:1.66;margin-bottom:22px}
+.testi cite{
+  margin-top:auto;font-style:normal;font-family:"Inter",sans-serif;
+  font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--texto-suave);
+}
+
+/* --------------------------------------------------------------- Carrusel */
+.carrusel{position:relative}
+.carrusel__pista{
+  display:grid;grid-auto-flow:column;grid-auto-columns:minmax(300px,1fr);
+  gap:clamp(18px,2.4vw,26px);
+  overflow-x:auto;scroll-snap-type:x mandatory;
+  padding:6px 2px 22px;margin:0 -2px;
+  scrollbar-width:none;-ms-overflow-style:none;
+}
+.carrusel__pista::-webkit-scrollbar{display:none}
+.carrusel__pista>*{scroll-snap-align:start}
+@media (min-width:980px){.carrusel__pista{grid-auto-columns:minmax(0,calc((100% - 2*26px)/3))}}
+.carrusel__nav{display:flex;gap:10px;justify-content:center;margin-top:6px}
+.carrusel__nav button{
+  width:46px;height:46px;border-radius:50%;cursor:pointer;
+  background:transparent;border:1.5px solid rgba(43,49,52,.22);color:var(--pizarra);
+  display:grid;place-items:center;transition:border-color .18s ease,color .18s ease,background-color .18s ease;
+}
+.carrusel__nav button:hover{border-color:var(--dorado);color:var(--dorado);background:rgba(177,143,81,.08)}
+.carrusel__nav button:focus-visible{outline:3px solid var(--dorado-claro);outline-offset:2px}
+.carrusel__nav svg{width:18px;height:18px}
+
+/* --------------------------------------------------------------- Prensa */
+.prensa{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,26px)}
+@media (max-width:860px){.prensa{grid-template-columns:1fr}}
+.nota{
+  display:flex;flex-direction:column;gap:12px;text-decoration:none;
+  background:var(--blanco);border:1px solid rgba(43,49,52,.08);
+  border-radius:var(--radio-lg);padding:clamp(24px,2.8vw,32px);
+  box-shadow:var(--sombra);
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.nota:hover{transform:translateY(-4px);box-shadow:var(--sombra-alta);border-color:rgba(177,143,81,.45)}
+.nota__medio{
+  font-family:"Inter",sans-serif;font-size:12.5px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dorado);
+}
+.nota h3{font-size:19px;line-height:1.4;color:var(--pizarra);font-weight:600}
+.nota__leer{
+  margin-top:auto;padding-top:8px;font-family:"Inter",sans-serif;font-size:14.5px;
+  font-weight:600;color:var(--texto-suave);display:inline-flex;align-items:center;gap:8px;
+}
+.nota:hover .nota__leer{color:var(--dorado)}
+.nota__leer svg{width:15px;height:15px}
+
+/* --------------------------------------------------------------- Invitación */
+.sec__head p.invitacion{
+  font-family:"Inter",sans-serif;
+  font-size:clamp(20px,2.4vw,29px);
+  line-height:1.4;letter-spacing:-.015em;font-weight:400;
+  color:#EDEFEC;opacity:1;
+  max-width:640px;margin:22px auto 0;
+  text-wrap:balance;
+}
+.sec__head p.invitacion .remate{
+  display:block;margin-top:16px;
+  color:var(--dorado-claro);font-weight:600;
+}
+@media (max-width:640px){.sec__head p.invitacion{max-width:none;margin-top:18px}}
+
+/* --------------------------------------------------------------- Aviso */
+.aviso{
+  display:flex;align-items:flex-start;gap:14px;justify-content:center;
+  max-width:620px;margin:34px auto 0;padding-top:30px;
+  border-top:1px solid rgba(255,255,255,.12);
+  font-size:15.5px;color:var(--texto-inv-suave);line-height:1.6;text-align:left;
+}
+.aviso svg{width:20px;height:20px;flex:none;color:var(--dorado-claro);margin-top:3px}
+
+/* --------------------------------------------------------------- Podcast */
+.pod{
+  display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(22px,2.8vw,32px);
+  align-items:start;
+}
+@media (max-width:900px){.pod{grid-template-columns:1fr}}
+
+.pod__destacado{
+  display:grid;grid-template-columns:200px 1fr;gap:clamp(20px,2.6vw,30px);
+  background:var(--blanco);border:1px solid rgba(43,49,52,.08);
+  border-radius:var(--radio-lg);padding:clamp(22px,2.6vw,30px);box-shadow:var(--sombra);
+}
+@media (max-width:620px){.pod__destacado{grid-template-columns:1fr}}
+.pod__tapa{
+  width:100%;border-radius:var(--radio);background:var(--salvia-suave);
+  aspect-ratio:1/1;object-fit:cover;
+}
+.pod__cuerpo{display:flex;flex-direction:column;gap:12px;min-width:0}
+.pod__meta{
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0;
+  font-family:"Inter",sans-serif;font-size:13.5px;color:var(--texto-suave);
+}
+.pod__vivo{
+  font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:#6A5220;background:rgba(177,143,81,.18);
+  border-radius:999px;padding:5px 11px;
+}
+.pod__titulo{
+  font-size:clamp(20px,2.3vw,26px);font-weight:600;color:var(--pizarra);
+  margin:0;line-height:1.28;
+}
+.pod__audio{width:100%;height:42px;margin-top:4px}
+.pod__pie{margin:0}
+.pod__enlace{
+  display:inline-flex;align-items:center;gap:7px;text-decoration:none;
+  font-family:"Inter",sans-serif;font-size:14.5px;font-weight:600;
+  color:var(--texto-suave);transition:color .18s ease;
+}
+.pod__enlace:hover{color:var(--dorado)}
+.pod__enlace svg{width:14px;height:14px}
+
+.pod__lista{
+  background:var(--blanco);border:1px solid rgba(43,49,52,.08);
+  border-radius:var(--radio-lg);padding:clamp(20px,2.4vw,26px);box-shadow:var(--sombra);
+}
+.pod__lista h4{
+  font-family:"Inter",sans-serif;font-size:12.5px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dorado);
+  margin:0 0 14px;
+}
+.pod__lista ul{list-style:none;margin:0;padding:0}
+.pod__lista li + li{border-top:1px solid rgba(43,49,52,.08)}
+.pod__item{
+  width:100%;text-align:left;background:none;border:0;cursor:pointer;
+  padding:13px 8px 13px 0;display:flex;align-items:baseline;gap:12px;
+  font-family:"Noto Sans",sans-serif;color:var(--texto);
+  border-radius:8px;transition:color .18s ease;
+}
+.pod__item:hover,.pod__item[aria-current="true"]{color:var(--dorado)}
+.pod__item:focus-visible{outline:3px solid var(--dorado-claro);outline-offset:2px}
+.pod__item span:first-child{flex:1;font-size:15.5px;line-height:1.45}
+.pod__item time{
+  flex:none;font-family:"Inter",sans-serif;font-size:12.5px;
+  color:var(--texto-suave);letter-spacing:.02em;
+}
+.pod__todos{
+  display:inline-flex;align-items:center;gap:7px;margin-top:16px;
+  text-decoration:none;font-family:"Inter",sans-serif;font-size:14.5px;
+  font-weight:600;color:var(--pizarra);transition:color .18s ease;
+}
+.pod__todos:hover{color:var(--dorado)}
+.pod__todos svg{width:14px;height:14px}
+
+.pod[data-estado="cargando"] .pod__lista ul::after{
+  content:"Buscando los \00fAltimos programas\2026";
+  display:block;padding:12px 0;font-size:15px;color:var(--texto-suave);
+}
+
+/* --------------------------------------------------------------- Instagram */
+.ig{
+  display:flex;align-items:center;justify-content:space-between;gap:32px;
+  flex-wrap:wrap;
+  background:linear-gradient(135deg, var(--petroleo) 0%, var(--pizarra) 100%);
+  border-radius:var(--radio-lg);padding:clamp(30px,4vw,48px);
+  color:var(--texto-inv);
+}
+.ig h2{font-size:clamp(24px,3vw,34px);color:#F0F1EE;margin-bottom:10px}
+.ig p{color:var(--texto-inv-suave);margin:0;max-width:46ch}
+.ig__handle{
+  font-family:"Inter",sans-serif;font-weight:600;color:var(--dorado-claro);
+  letter-spacing:.02em;
+}
+
+/* --------------------------------------------------------------- FAQ */
+.faq{max-width:840px;margin:0 auto}
+.faq__grupo{
+  font-family:"Inter",sans-serif;font-size:12.5px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dorado);
+  margin:34px 0 14px;padding-left:2px;
+}
+.faq__grupo:first-child{margin-top:0}
+.faq details{
+  background:var(--blanco);border:1px solid rgba(43,49,52,.08);
+  border-radius:var(--radio);margin-bottom:12px;overflow:hidden;
+  transition:box-shadow .2s ease;
+}
+.faq details[open]{box-shadow:var(--sombra)}
+.faq summary{
+  list-style:none;cursor:pointer;padding:22px 56px 22px 26px;position:relative;
+  font-family:"Inter",sans-serif;font-size:17.5px;font-weight:600;
+  color:var(--pizarra);letter-spacing:-.01em;line-height:1.4;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"";position:absolute;right:26px;top:50%;width:11px;height:11px;
+  border-right:2px solid var(--dorado);border-bottom:2px solid var(--dorado);
+  transform:translateY(-70%) rotate(45deg);transition:transform .22s ease;
+}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq summary:focus-visible{outline:3px solid var(--dorado-claro);outline-offset:-3px}
+.faq__cuerpo{padding:0 26px 24px;color:var(--texto-suave);font-size:16.5px}
+
+/* --------------------------------------------------------------- Contacto */
+.contacto__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,26px);margin-bottom:40px}
+@media (max-width:860px){.contacto__grid{grid-template-columns:1fr}}
+.vcard{
+  background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.14);
+  border-radius:var(--radio-lg);padding:clamp(26px,3vw,34px);
+  display:flex;flex-direction:column;align-items:flex-start;gap:14px;
+  transition:border-color .2s ease, background-color .2s ease;
+}
+.vcard:hover{border-color:rgba(203,168,104,.5);background:rgba(255,255,255,.08)}
+.vcard__icono{
+  width:48px;height:48px;border-radius:14px;display:grid;place-items:center;
+  background:rgba(203,168,104,.16);color:var(--dorado-claro);
+}
+.vcard__icono svg{width:24px;height:24px}
+.vcard h3{font-size:18px;color:#F0F1EE;margin:0}
+.vcard p{font-size:15.5px;color:var(--texto-inv-suave);margin:0}
+.vcard .btn{margin-top:6px}
+
+/* --------------------------------------------------------------- Footer */
+.footer{background:var(--pizarra);color:var(--texto-inv-suave);padding:clamp(48px,6vw,72px) 0 0}
+.footer__grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:clamp(28px,4vw,48px)}
+@media (max-width:820px){.footer__grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.footer__grid{grid-template-columns:1fr}}
+.footer img.logo{height:34px;width:auto;margin-bottom:22px}
+.footer blockquote{
+  margin:0 0 26px;font-size:15.5px;line-height:1.66;color:rgba(185,192,189,.85);
+  font-style:italic;max-width:42ch;
+}
+.footer blockquote footer{font-style:normal;font-size:13.5px;color:var(--dorado-claro);margin-top:10px;font-family:"Inter",sans-serif;letter-spacing:.04em}
+.footer h4{
+  font-family:"Inter",sans-serif;font-size:12.5px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dorado-claro);margin-bottom:18px;
+}
+.footer ul{list-style:none;margin:0;padding:0}
+.footer li{margin-bottom:11px}
+.footer a{text-decoration:none;font-size:15.5px;transition:color .18s ease}
+.footer a:hover{color:var(--dorado-claro)}
+.social{display:flex;gap:12px;margin-bottom:22px}
+.social a{
+  width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+  border:1px solid rgba(255,255,255,.2);color:var(--texto-inv-suave);
+  transition:border-color .18s ease,color .18s ease,background-color .18s ease;
+}
+.social a:hover{border-color:var(--dorado-claro);color:var(--dorado-claro);background:rgba(203,168,104,.1)}
+.social svg{width:19px;height:19px}
+.matriculas{font-family:"Inter",sans-serif;font-size:13.5px;letter-spacing:.06em;color:rgba(185,192,189,.7)}
+.footer__base{
+  margin-top:clamp(40px,5vw,60px);padding:22px 0;
+  border-top:1px solid rgba(255,255,255,.09);
+  display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;
+  font-size:13.5px;color:rgba(185,192,189,.65);
+}
+.footer__base a{font-size:13.5px}
+
+/* --------------------------------------------------------------- WA flotante */
+.wa-flotante{
+  position:fixed;right:18px;bottom:18px;z-index:120;
+  width:60px;height:60px;border-radius:50%;
+  background:var(--dorado);color:#1E2224;display:grid;place-items:center;
+  box-shadow:0 10px 30px rgba(120,92,36,.45);
+  text-decoration:none;transition:transform .2s ease;
+}
+.wa-flotante:hover{transform:scale(1.06)}
+.wa-flotante svg{width:31px;height:31px}
+@media (min-width:901px){.wa-flotante{display:none}}
+
+/* --------------------------------------------------------------- Nota demo */
+.nota-demo{
+  background:#FFF6E2;border:1px dashed var(--dorado);color:#6A5220;
+  border-radius:var(--radio);padding:14px 18px;font-size:14.5px;
+  font-family:"Inter",sans-serif;line-height:1.55;margin-top:22px;
+}
+.nota-demo b{color:#54400F}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .btn:hover,.card:hover,.wa-flotante:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================ HEADER -->
+<header class="header">
+  <div class="wrap header__in">
+    <a class="header__logo" href="#inicio" aria-label="Noelia Padin, inicio">
+      <img src="https://cdn.prod.website-files.com/664cd401a0551a929b61d73f/69203cb017b3eb2a48f7bb87_Noe%20V2%20Logo-p-500.png" alt="Noelia Padin, psicóloga clínica" width="200" height="66">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#pareja">Pareja</a>
+      <a href="#clinica">Clínica</a>
+      <a href="#modalidades">Modalidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a class="btn btn--oro btn--sm header__cta js-cta-whatsapp"
+       href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20agendar%20una%20consulta%20con%20la%20Lic.%20Noelia.%20%C2%BFPodr%C3%ADan%20informarme%20disponibilidad%3F"
+       target="_blank" rel="noopener" id="cta-header-wa">Realizar consulta</a>
+
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================ HERO -->
+<section class="hero" id="inicio">
+  <div class="wrap hero__in">
+    <div>
+      <p class="eyebrow">Licenciada en Psicología</p>
+      <h1>Noelia <span class="apellido">Padin</span></h1>
+      <p class="hero__sub">Psicóloga clínica especializada en vínculos.</p>
+      <p>Si estás enfrentando desafíos emocionales, dificultades en tus relaciones o buscas mejorar tu bienestar emocional, estoy aquí para ayudarte.</p>
+      <p>Con más de 13 años de experiencia y 1000 pacientes atendidos, estoy comprometida a acompañarte a encontrar tu equilibrio y bienestar.</p>
+      <p>Te invito a una consulta de orientación para construir juntos el camino hacia tu recuperación y bienestar.</p>
+
+      <div class="hero__acciones">
+        <a class="btn btn--oro js-cta-whatsapp" id="cta-hero-wa"
+           href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20agendar%20una%20consulta%20con%20la%20Lic.%20Noelia.%20%C2%BFPodr%C3%ADan%20informarme%20disponibilidad%3F"
+           target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.13-1.47-.72-1.69-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+          Realizar consulta
+        </a>
+        <a class="btn btn--ghost" href="#especialidades">Cómo puedo ayudarte</a>
+      </div>
+
+      <p class="hero__mat">M.N. 57282 &nbsp;·&nbsp; M.P. 73629</p>
+    </div>
+
+    <figure class="hero__figura">
+      <img src="https://cdn.prod.website-files.com/664cd401a0551a929b61d73f/664d128a85dcd07252e6f26c_NoePsi320x400.jpeg"
+           alt="Retrato de la Lic. Noelia Padin, psicóloga clínica" width="320" height="400" fetchpriority="high">
+    </figure>
+  </div>
+</section>
+
+<!-- ============================================================ FRANJA -->
+<div class="franja">
+  <div class="wrap franja__in">
+    <div class="franja__item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M17 20.5c0-3-2.2-5-5-5s-5 2-5 5"/><circle cx="12" cy="8.5" r="3.4"/><path d="M19.5 20.5c0-2.2-1-3.8-2.6-4.6M4.5 20.5c0-2.2 1-3.8 2.6-4.6"/></svg>
+      <span><b>1000+</b> pacientes acompañados</span>
+    </div>
+    <div class="franja__item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+      <span><b>13+</b> años de práctica clínica</span>
+    </div>
+    <div class="franja__item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-4.8-7-10a7 7 0 1 1 14 0c0 5.2-7 10-7 10Z"/><circle cx="12" cy="11" r="2.6"/></svg>
+      <span>Presencial en <b>Núñez</b> y online en todo el país</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ ESPECIALIDADES -->
+<section class="sec sec--salvia" id="especialidades">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">Especialidades</p>
+      <h2>En qué puedo acompañarte</h2>
+      <p>Trabajo desde un enfoque cognitivo-conductual: con herramientas concretas y una mirada vincular, entender cómo nos relacionamos —con otros y con nosotros mismos— es la puerta de entrada para transformar lo que nos hace sufrir.</p>
+    </div>
+
+    <div class="grid-2">
+      <article class="card">
+        <div class="card__icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><circle cx="16.5" cy="9.5" r="2.6"/><path d="M3.5 19.5c0-3 2.5-5 5.5-5s5.5 2 5.5 5M15 14.8c2.6.2 4.5 2.1 4.5 4.7"/></svg>
+        </div>
+        <h3>Problemáticas de pareja</h3>
+        <p>Las relaciones de pareja se construyen y se desarman en los vínculos cotidianos. Desde un enfoque cognitivo-conductual, trabajo sobre los patrones de pensamiento y de conducta que sostienen los conflictos —qué se repite, qué se evita, qué ya no se dice— para abrir una comunicación que no vuelva siempre al mismo lugar.</p>
+        <ul class="card__lista">
+          <li>Discusiones repetidas que no llegan a ningún lado</li>
+          <li>Distancia emocional y pérdida de intimidad</li>
+          <li>Crisis de confianza y reparación del vínculo</li>
+          <li>Decisiones difíciles: seguir, replantear o separarse bien</li>
+        </ul>
+        <div class="card__pie">
+          <a class="btn btn--ghost-osc" href="#pareja">Ver el programa de 12 sesiones</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7.5-4.6-7.5-10A4.5 4.5 0 0 1 12 8.2a4.5 4.5 0 0 1 7.5 2.8c0 5.4-7.5 10-7.5 10Z"/></svg>
+        </div>
+        <h3>Ansiedad, depresión y vínculo con uno mismo</h3>
+        <p>La terapia cognitivo-conductual es de las más efectivas para tratar ansiedad y depresión, con herramientas concretas y resultados medibles. Trabajamos sobre los pensamientos y comportamientos que sostienen el malestar, sin perder de vista la dimensión vincular: cómo nos tratamos a nosotros mismos y qué vínculos sostienen o desgastan.</p>
+        <ul class="card__lista">
+          <li>Crisis de ansiedad, preocupación constante y dificultades para dormir</li>
+          <li>Desánimo sostenido, falta de motivación y aislamiento</li>
+          <li>Estrés laboral, agotamiento y sobrecarga</li>
+          <li>Autoestima y procesos de cambio personal</li>
+        </ul>
+        <div class="card__pie">
+          <a class="btn btn--oro js-cta-whatsapp" id="cta-esp-ansiedad"
+             href="https://wa.me/541138921412?text=Hola%2C%20quiero%20consultar%20por%20terapia%20individual%20(ansiedad%20o%20depresi%C3%B3n).%20%C2%BFC%C3%B3mo%20es%20el%20primer%20paso%3F"
+             target="_blank" rel="noopener">Consultar disponibilidad</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ PROGRAMA PAREJA -->
+<section class="sec sec--petroleo" id="pareja">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">Programa de terapia de pareja</p>
+      <h2>Transformar la relación en 12 sesiones</h2>
+      <p>No están perdiendo la relación, están repitiendo los mismos errores de siempre. El problema casi nunca es la falta de amor: es lo no dicho.</p>
+    </div>
+
+    <div class="fases">
+      <article class="fase">
+        <span class="fase__num">Fase 1 · Sesiones 1 a 4</span>
+        <h3>Diagnóstico</h3>
+        <p class="fase__claim">Entender antes de cambiar.</p>
+        <p>Descubrimos qué los trajo hasta acá, revisamos la historia del vínculo y ponemos en palabras el dolor que quedó dando vueltas.</p>
+        <ul>
+          <li>Comprensión profunda del momento actual</li>
+          <li>Identificación de los ciclos que los lastiman</li>
+        </ul>
+      </article>
+
+      <article class="fase">
+        <span class="fase__num">Fase 2 · Sesiones 5 a 8</span>
+        <h3>Revisión del vínculo</h3>
+        <p class="fase__claim">¿Qué los sigue uniendo?</p>
+        <p>Trabajamos sobre lo que sigue vivo en la relación y sobre la responsabilidad que le cabe a cada uno, sin buscar culpables.</p>
+        <ul>
+          <li>Recuperación de los puntos de conexión emocional</li>
+          <li>Práctica de empatía y escucha real</li>
+        </ul>
+      </article>
+
+      <article class="fase">
+        <span class="fase__num">Fase 3 · Sesiones 9 a 12</span>
+        <h3>Transformación</h3>
+        <p class="fase__claim">Crear una nueva forma de estar juntos.</p>
+        <p>Consolidamos una manera de convivir más consciente y más liviana, sostenible en el tiempo y no solo mientras dura la terapia.</p>
+        <ul>
+          <li>Reconocimiento de los valores compartidos</li>
+          <li>Consolidación de los cambios logrados</li>
+        </ul>
+      </article>
+    </div>
+
+    <div style="text-align:center;margin-top:44px">
+      <a class="btn btn--oro js-cta-whatsapp" id="cta-pareja-wa"
+         href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20programa%20de%20terapia%20de%20pareja%20de%2012%20sesiones."
+         target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.13-1.47-.72-1.69-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+        Realizar consulta
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ TESTIMONIOS -->
+<section class="sec sec--crema" id="testimonios">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">Testimonios</p>
+      <h2>Historias de quienes eligieron transformar su relación</h2>
+    </div>
+
+    <div class="carrusel">
+      <div class="carrusel__pista" id="pista-testi" tabindex="0" role="group" aria-label="Testimonios, se desplaza horizontalmente">
+        <article class="testi">
+          <div class="testi__comillas" aria-hidden="true">&ldquo;</div>
+          <p>Nos dimos cuenta de que no era falta de amor, era falta de escucharnos. Ahora hablamos sin miedo a que todo termine en pelea.</p>
+          <cite>Sofía y Lucas</cite>
+        </article>
+        <article class="testi">
+          <div class="testi__comillas" aria-hidden="true">&ldquo;</div>
+          <p>Llegamos con mucha distancia, casi como extraños. Hoy sentimos que volvimos a ser equipo.</p>
+          <cite>Ana y Pablo</cite>
+        </article>
+        <article class="testi">
+          <div class="testi__comillas" aria-hidden="true">&ldquo;</div>
+          <p>El proceso nos enseñó a frenar, respirar y entender qué había detrás de cada enojo. Eso cambió todo.</p>
+          <cite>Diego y Ricardo</cite>
+        </article>
+        <!-- Sumar acá más testimonios. El carrusel se adapta solo. -->
+      </div>
+      <div class="carrusel__nav">
+        <button type="button" data-pista="pista-testi" data-dir="-1" aria-label="Testimonio anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14.5 5-7 7 7 7"/></svg>
+        </button>
+        <button type="button" data-pista="pista-testi" data-dir="1" aria-label="Testimonio siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9.5 5 7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ CLÍNICA -->
+<section class="sec sec--pizarra" id="clinica">
+  <div class="wrap clinica">
+    <img src="https://cdn.prod.website-files.com/664cd401a0551a929b61d73f/664d14c758b99940694ee4d0_NoeConsult-p-800.jpeg"
+         alt="Noelia Padin en su consultorio de Núñez" width="800" height="800" loading="lazy">
+    <div>
+      <p class="eyebrow">Enfoque</p>
+      <h2>Práctica clínica</h2>
+      <p>Estoy convencida de que entenderse a uno mismo es el primer paso para sanar. Elegí esta profesión porque creo profundamente en la capacidad de las personas para transformar su malestar en bienestar, y estoy acá para acompañarte en ese camino, como lo vengo haciendo con mis pacientes desde hace más de trece años.</p>
+      <p>Mi práctica va más allá de los títulos: es un encuentro humano donde pongo toda mi experiencia, mi calidez y mis recursos a tu disposición, con un único propósito: que encuentres alivio real en un tiempo razonable.</p>
+      <p>No trabajo con consejos prefabricados. Trabajo con escucha genuina, respeto por tu historia y un plan que construimos juntos. Paso a paso, vas a ir ganando herramientas concretas para manejar lo que hoy te angustia, y una comprensión más clara de vos mismo y tus vínculos, para sostener ese cambio en el tiempo.</p>
+      <blockquote>El primer paso no es tener todo claro. Es animarse a poner en palabras lo que hoy pesa.</blockquote>
+      <div class="hero__acciones">
+        <a class="btn btn--oro js-cta-whatsapp" id="cta-clinica-wa"
+           href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20coordinar%20una%20primera%20consulta%20de%20orientaci%C3%B3n."
+           target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.13-1.47-.72-1.69-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+          Realizar consulta
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ MODALIDADES -->
+<section class="sec sec--salvia" id="modalidades">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">Clínica</p>
+      <h2>Modalidades de atención</h2>
+      <p>Elegí la que mejor se adapte a tu momento. Las dos tienen el mismo encuadre y la misma frecuencia de trabajo.</p>
+    </div>
+
+    <div class="grid-2">
+      <article class="card">
+        <div class="card__icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-4.8-7-10a7 7 0 1 1 14 0c0 5.2-7 10-7 10Z"/><circle cx="12" cy="11" r="2.6"/></svg>
+        </div>
+        <h3>Presencial</h3>
+        <p>Consultorio en Núñez, a pocas cuadras de Libertador y Av. Cabildo. Un espacio privado y tranquilo, pensado para que puedas hablar con total libertad y discreción.</p>
+        <ul class="card__lista">
+          <li>Sesiones de 50 minutos, con un horario fijo reservado para vos</li>
+          <li>Agenda coordinada directamente con Noelia, sin intermediarios</li>
+          <li>Confidencialidad absoluta sobre todo lo que se habla</li>
+        </ul>
+        <div class="card__pie">
+          <a class="btn btn--oro js-cta-whatsapp" id="cta-modalidad-presencial"
+             href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20consultar%20por%20sesiones%20presenciales%20en%20el%20consultorio%20de%20N%C3%BA%C3%B1ez."
+             target="_blank" rel="noopener">Consultar disponibilidad</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="5" width="13.5" height="13" rx="2.4"/><path d="M16 10.5 21.5 7.5v9L16 13.5Z"/></svg>
+        </div>
+        <h3>Virtual</h3>
+        <p>La misma profundidad de trabajo, desde donde estés. Pensada para agendas exigentes, viajes frecuentes y semanas que cambian de un día para el otro.</p>
+        <ul class="card__lista">
+          <li>Videollamada de 50 minutos, con el mismo encuadre que el consultorio</li>
+          <li>El proceso no se interrumpe aunque estés fuera del país</li>
+          <li>Horarios coordinados según tu disponibilidad real</li>
+        </ul>
+        <div class="card__pie">
+          <a class="btn btn--oro js-cta-whatsapp" id="cta-modalidad-virtual"
+             href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20consultar%20por%20sesiones%20online."
+             target="_blank" rel="noopener">Consultar disponibilidad</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FAQ -->
+<section class="sec sec--crema" id="faq">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">Preguntas frecuentes</p>
+      <h2>Lo que suelen preguntarme antes de empezar</h2>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq__grupo">Terapia individual</h3>
+
+      <details open>
+        <summary>¿Cómo es la primera consulta?</summary>
+        <div class="faq__cuerpo">Es un primer encuentro para escuchar. Me contás qué te trajo a la consulta y empezamos a entender juntos el motivo por el que estás acá. Sobre el final te doy una devolución de lo que escuché: cómo leo lo que te está pasando y por dónde propongo empezar a trabajar.</div>
+      </details>
+
+      <details>
+        <summary>¿Y si no sé bien cómo explicar lo que me pasa?</summary>
+        <div class="faq__cuerpo">No hace falta que llegues con todo claro. Parte de mi trabajo es ayudarte a poner en palabras lo que sentís, aunque al principio sea confuso. Muchas veces empezar a hablarlo ya es el primer paso hacia la claridad.</div>
+      </details>
+
+      <details>
+        <summary>¿Sirve si lo que me pasa tiene que ver con mi pareja, pero prefiero venir solo o sola por ahora?</summary>
+        <div class="faq__cuerpo">Sí. Muchas veces conviene empezar por un espacio individual para ordenar lo que sentís, antes o en paralelo a encarar el tema en pareja.</div>
+      </details>
+
+      <details>
+        <summary>¿Cuánto dura un proceso terapéutico?</summary>
+        <div class="faq__cuerpo">Depende de cada persona y cada situación. Hay procesos breves y puntuales, y otros más extensos. Lo vamos evaluando juntos, sin plazos forzados ni terapia indefinida.</div>
+      </details>
+
+      <h3 class="faq__grupo">Terapia de pareja</h3>
+
+      <details>
+        <summary>¿La terapia de pareja reemplaza a la terapia individual?</summary>
+        <div class="faq__cuerpo">No. La terapia de pareja se enfoca en el vínculo. Cuando aparecen temas personales profundos, se recomienda además un espacio individual, y ambos procesos se potencian entre sí.</div>
+      </details>
+
+      <details>
+        <summary>¿Y si en la pareja solo uno quiere venir a terapia?</summary>
+        <div class="faq__cuerpo">Es más común de lo que creés, y es un buen punto de partida. Muchas veces el cambio de una persona ya empieza a transformar la dinámica de la relación.</div>
+      </details>
+
+      <h3 class="faq__grupo">Honorarios y cobertura</h3>
+
+      <details>
+        <summary>¿Atendés por obra social o prepaga?</summary>
+        <div class="faq__cuerpo">Atiendo de forma particular. Según tu prepaga, puedo entregarte factura para que gestiones el reintegro correspondiente.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ CONTACTO -->
+<section class="sec sec--petroleo" id="contacto">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">Contacto</p>
+      <h2>Realizá tu consulta</h2>
+      <p class="invitacion">Si llegaste hasta aquí, es por que algo está sucediendo en tu vida.
+        <span class="remate">Es momento que lo puedas resolver.</span>
+      </p>
+    </div>
+
+    <div class="contacto__grid">
+      <article class="vcard">
+        <div class="vcard__icono">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.13-1.47-.72-1.69-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+        </div>
+        <h3>WhatsApp</h3>
+        <p>La vía más rápida.<br><span style="white-space:nowrap">+54 11 3892-1412</span></p>
+        <a class="btn btn--oro btn--block js-cta-whatsapp" id="cta-contacto-wa"
+           href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20agendar%20una%20consulta%20con%20la%20Lic.%20Noelia.%20%C2%BFPodr%C3%ADan%20informarme%20disponibilidad%3F"
+           target="_blank" rel="noopener">Realizar consulta</a>
+      </article>
+
+      <article class="vcard">
+        <div class="vcard__icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.4"/><path d="m3 7 9 6 9-6"/></svg>
+        </div>
+        <h3>Email</h3>
+        <p>Si preferís contarme por escrito con más detalle.</p>
+        <a class="btn btn--oro btn--block js-cta-email" id="cta-contacto-mail"
+           href="mailto:padin.noelia@hotmail.com.ar?subject=Quiero%20agendar%20una%20consulta%20%7C%20Web">Escribir un mail</a>
+      </article>
+
+      <article class="vcard">
+        <div class="vcard__icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-4.8-7-10a7 7 0 1 1 14 0c0 5.2-7 10-7 10Z"/><circle cx="12" cy="11" r="2.6"/></svg>
+        </div>
+        <h3>Consultorio</h3>
+        <p>Núñez, Ciudad de Buenos Aires. Dirección exacta al coordinar.</p>
+        <a class="btn btn--ghost btn--block js-cta-maps" id="cta-contacto-maps"
+           href="https://www.google.com/maps/search/?api=1&query=N%C3%BA%C3%B1ez%2C%20CABA" target="_blank" rel="noopener">Ver en el mapa</a>
+      </article>
+    </div>
+
+    <p class="aviso">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.2v.1"/></svg>
+      <span>Respondo personalmente cada consulta. Durante los fines de semana la respuesta puede demorar un poco más.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================ RADIO -->
+<!--
+  ===========================================================================
+  VINCULÁNDONOS: la lista de episodios se arma sola.
+  El JS del pie de página pide /api/episodios, que lee el RSS público de
+  RSC Radio Internacional (https://anchor.fm/s/640c21dc/podcast/rss), filtra
+  los episodios cuyo título contiene "VINCUL" y devuelve los últimos 8.
+  Si ese endpoint no existe todavía, la página muestra la lista de respaldo
+  que está escrita en el JS. Nadie tiene que tocar el HTML nunca.
+  Las funciones para Cloudflare Pages y para Netlify van en archivos aparte.
+  ===========================================================================
+-->
+<section class="sec sec--crema" id="radio">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">Radio</p>
+      <h2>Vinculándonos</h2>
+      <p>Terapias que suman. Cada viernes a las 18:30 por RSC Radio Internacional. Un tema distinto por semana, siempre sobre vínculos. Escuchalos completos acá, sin salir de la página.</p>
+    </div>
+
+    <div class="pod" id="pod" data-estado="cargando">
+      <article class="pod__destacado">
+        <img class="pod__tapa" id="pod-tapa" alt="Vinculándonos" width="600" height="600" loading="lazy">
+        <div class="pod__cuerpo">
+          <p class="pod__meta"><span class="pod__vivo">Último programa</span> <span id="pod-fecha"></span></p>
+          <h3 class="pod__titulo" id="pod-titulo">Cargando episodios…</h3>
+          <audio class="pod__audio" id="pod-audio" controls preload="none"></audio>
+          <p class="pod__pie">
+            <a id="pod-spotify" class="pod__enlace js-cta-spotify" href="https://open.spotify.com/show/2hDIZAIPMaVYSssrRFbwEX" target="_blank" rel="noopener">
+              Escuchar en Spotify
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </p>
+        </div>
+      </article>
+
+      <div class="pod__lista">
+        <h4>Programas anteriores</h4>
+        <ul id="pod-lista"></ul>
+        <a class="pod__todos js-cta-spotify" href="https://open.spotify.com/search/VINCUL%C3%81NDONOS%20Noelia%20Padin/episodes" target="_blank" rel="noopener">
+          Ver todos los episodios
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ PRENSA -->
+<section class="sec sec--blanco" id="prensa">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow eyebrow--centro">En los medios</p>
+      <h2>Notas y entrevistas</h2>
+      <p>Notas, entrevistas y conversaciones en medios sobre vínculos, ansiedad y salud mental.</p>
+    </div>
+
+    <div class="prensa">
+      <a class="nota js-cta-prensa" href="https://www.perfil.com/noticias/guia-de-profesionales-pnt/noelia-padin-un-vinculo-saludable-no-es-aquel-que-carece-de-conflictos-sino-el-que-aprende-a-reparar.phtml" target="_blank" rel="noopener">
+        <span class="nota__medio">Perfil</span>
+        <h3>&ldquo;Un vínculo saludable no es aquel que carece de conflictos, sino el que aprende a reparar&rdquo;</h3>
+        <span class="nota__leer">Leer la nota
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </span>
+      </a>
+
+      <a class="nota js-cta-prensa" href="https://www.instagram.com/reel/DdC56jFDRTa/" target="_blank" rel="noopener">
+        <span class="nota__medio">Instagram Live</span>
+        <h3>Entrevista en vivo con Dyana Lombardi</h3>
+        <span class="nota__leer">Ver la entrevista
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </span>
+      </a>
+
+      <!-- PLANTILLA: duplicar este bloque por cada nota nueva. Cambiar href, medio y título. -->
+
+      <a class="nota js-cta-prensa" href="#prensa">
+        <span class="nota__medio">Medio pendiente</span>
+        <h3>Espacio reservado para la tercera nota</h3>
+        <span class="nota__leer">Leer la nota
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </span>
+      </a>
+    </div>
+
+    <div class="ig" style="margin-top:clamp(40px,5vw,60px)">
+      <div>
+        <h2>Seguime en Instagram</h2>
+        <p>Reflexiones sobre vínculos, ansiedad y vida cotidiana. <span class="ig__handle">@psi.noeliapadin</span></p>
+      </div>
+      <a class="btn btn--oro js-cta-instagram" id="cta-instagram"
+         href="https://www.instagram.com/psi.noeliapadin" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg>
+        Ir al perfil
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <img class="logo" src="https://cdn.prod.website-files.com/664cd401a0551a929b61d73f/69203cb017b3eb2a48f7bb87_Noe%20V2%20Logo-p-800.png" alt="Noelia Padin" width="260" height="86" loading="lazy">
+        <blockquote>
+          La ciencia moderna aún no ha producido un medicamento tranquilizador tan eficaz como lo son unas pocas palabras bondadosas.
+          <footer>Sigmund Freud</footer>
+        </blockquote>
+        <div class="social">
+          <a class="js-cta-instagram" href="https://www.instagram.com/psi.noeliapadin" target="_blank" rel="noopener" aria-label="Instagram de Noelia Padin">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/noelia-padin-7838a486/" target="_blank" rel="noopener" aria-label="LinkedIn de Noelia Padin">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.76-1.95 4.02 0 4.76 2.5 4.76 5.76V21h-4v-5.6c0-1.34-.03-3.06-1.9-3.06-1.9 0-2.2 1.46-2.2 2.97V21h-4V9Z"/></svg>
+          </a>
+          <a class="js-cta-spotify" href="https://open.spotify.com/" target="_blank" rel="noopener" aria-label="Programa de radio en Spotify">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm4.59 14.43a.62.62 0 0 1-.86.21c-2.35-1.44-5.3-1.76-8.79-.96a.63.63 0 0 1-.28-1.22c3.81-.87 7.08-.5 9.72 1.11.29.18.39.57.21.86Zm1.22-2.72a.78.78 0 0 1-1.07.26c-2.69-1.65-6.79-2.13-9.97-1.17a.78.78 0 1 1-.45-1.5c3.63-1.1 8.15-.56 11.24 1.34.37.23.48.71.25 1.07Zm.11-2.84c-3.23-1.92-8.55-2.09-11.63-1.16a.94.94 0 1 1-.54-1.8c3.54-1.07 9.42-.86 13.13 1.35a.94.94 0 0 1-.96 1.61Z"/></svg>
+          </a>
+        </div>
+        <p class="matriculas">M.N. 57282 &nbsp;·&nbsp; M.P. 73629</p>
+      </div>
+
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#pareja">Terapia de pareja</a></li>
+          <li><a href="#clinica">Práctica clínica</a></li>
+          <li><a href="#modalidades">Modalidades</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#radio">Radio y podcast</a></li>
+          <li><a href="#prensa">Prensa</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a class="js-cta-whatsapp" href="https://wa.me/541138921412" target="_blank" rel="noopener">+54 11 3892-1412</a></li>
+          <li><a class="js-cta-email" href="mailto:padin.noelia@hotmail.com.ar">padin.noelia@hotmail.com.ar</a></li>
+          <li><a class="js-cta-maps" href="https://www.google.com/maps/search/?api=1&query=N%C3%BA%C3%B1ez%2C%20CABA" target="_blank" rel="noopener">Núñez, CABA</a></li>
+          <li><a class="js-cta-instagram" href="https://www.instagram.com/psi.noeliapadin" target="_blank" rel="noopener">@psi.noeliapadin</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__base">
+      <span>&copy; <span id="anio">2026</span> Noelia Padin. Todos los derechos reservados.</span>
+      <span>Lic. en Psicología · M.N. 57282 · M.P. 73629</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-flotante js-cta-whatsapp" id="cta-flotante-wa"
+   href="https://wa.me/541138921412?text=Hola%2C%20quisiera%20agendar%20una%20consulta%20con%20la%20Lic.%20Noelia."
+   target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.13-1.47-.72-1.69-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+</a>
+
+<script>
+(function(){
+  var burger = document.getElementById('burger');
+  var nav = document.getElementById('nav');
+  burger.addEventListener('click', function(){
+    var open = nav.getAttribute('data-open') === 'true';
+    nav.setAttribute('data-open', String(!open));
+    burger.setAttribute('aria-expanded', String(!open));
+    burger.setAttribute('aria-label', !open ? 'Cerrar menú' : 'Abrir menú');
+  });
+  nav.addEventListener('click', function(e){
+    if (e.target.tagName === 'A') {
+      nav.setAttribute('data-open','false');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+  document.getElementById('anio').textContent = new Date().getFullYear();
+
+  // ===========================================================================
+  // VINCUL\u00c1NDONOS: lista de episodios
+  // ===========================================================================
+  (function(){
+    var pod = document.getElementById('pod');
+    if(!pod) return;
+
+    // Endpoint que lee y filtra el RSS. Ver functions/api/episodios.js
+    var API = '/api/episodios';
+
+    // TEMA DE LA SEMANA (opcional).
+    // El RSS no trae el tema, solo la fecha. Hasta que RSC lo ponga en el
+    // t\u00edtulo del episodio, se puede cargar ac\u00e1 a mano: clave = el n\u00famero que
+    // aparece en la URL del audio (.../podcast/play/125249931/...).
+    var TEMAS = {
+      // '125249931': 'Celos: cu\u00e1ndo cuidan y cu\u00e1ndo lastiman',
+    };
+
+    // Lista de respaldo por si el endpoint todav\u00eda no est\u00e1 publicado.
+    var RESPALDO = [
+      {titulo:'VINCUL\u00c1NDONOS | Noelia Padin | Viernes 4 de Septiembre',fecha:'Sat, 05 Sep 2026 17:31:58 GMT',duracion:'00:30:01',audio:'https://anchor.fm/s/640c21dc/podcast/play/125249931/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-5%2F4266e229-00b0-ddf2-20cb-b07272dce1f7.mp3',imagen:'https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/16685167/16685167-1788629455219-9a8d395161417.jpg',enlace:'https://podcasters.spotify.com/pod/show/rsc-radio/episodes/VINCULNDONOS--Noelia-Padin--Viernes-4-de-Septiembre-e3ocqub'},
+      {titulo:'VINCUL\u00c1NDONOS | Noelia Padin | Viernes 28 de Agosto',fecha:'Sat, 29 Aug 2026 01:34:45 GMT',duracion:'00:28:03',audio:'https://anchor.fm/s/640c21dc/podcast/play/124884429/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-29%2Fdb69cfc5-6bba-7e29-9137-5844ec74319d.mp3',imagen:'https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/16685167/16685167-1787967197862-d7c43af59664.jpg',enlace:'https://podcasters.spotify.com/pod/show/rsc-radio/episodes/VINCULNDONOS--Noelia-Padin--Viernes-28-de-Agosto-e3o1m0d'},
+      {titulo:'VINCUL\u00c1NDONOS | Noelia Padin | Viernes 21 de Agosto',fecha:'Sat, 22 Aug 2026 21:13:14 GMT',duracion:'00:25:03',audio:'https://anchor.fm/s/640c21dc/podcast/play/124593233/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-22%2Fc59bc1a9-b5e7-68b9-edd1-df054e789618.mp3',imagen:'https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/16685167/16685167-1787433186289-f3a1abeec1ebc.jpg',enlace:'https://podcasters.spotify.com/pod/show/rsc-radio/episodes/VINCULNDONOS--Noelia-Padin--Viernes-21-de-Agosto-e3nopkh'},
+      {titulo:'VINCUL\u00c1NDONOS | Noelia Padin | Viernes 14 de Agosto',fecha:'Sat, 15 Aug 2026 21:56:45 GMT',duracion:'00:34:11',audio:'https://anchor.fm/s/640c21dc/podcast/play/124270345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-15%2F997c49d8-b440-87bc-feef-60fca4df3b4a.mp3',imagen:'https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/16685167/16685167-1786830898213-f00caec00e9d2.jpg',enlace:'https://podcasters.spotify.com/pod/show/rsc-radio/episodes/VINCULNDONOS--Noelia-Padin--Viernes-14-de-Agosto-e3neua9'},
+      {titulo:'VINCUL\u00c1NDONOS | Noelia Padin | Viernes 7 de Agosto',fecha:'Mon, 10 Aug 2026 02:12:20 GMT',duracion:'00:35:25',audio:'https://anchor.fm/s/640c21dc/podcast/play/124000631/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-10%2F4318e6af-d3a8-dc38-4188-533182141fa2.mp3',imagen:'https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/16685167/16685167-1786327845203-d4c39bd9544c8.jpg',enlace:'https://podcasters.spotify.com/pod/show/rsc-radio/episodes/VINCULNDONOS--Noelia-Padin--Viernes-7-de-Agosto-e3n6mtn'}
+    ];
+
+    var elTapa=document.getElementById('pod-tapa'),
+        elFecha=document.getElementById('pod-fecha'),
+        elTitulo=document.getElementById('pod-titulo'),
+        elAudio=document.getElementById('pod-audio'),
+        elSpotify=document.getElementById('pod-spotify'),
+        elLista=document.getElementById('pod-lista');
+
+    function idDe(ep){
+      var m=/\/play\/(\d+)\//.exec(ep.audio||'');
+      return m?m[1]:(ep.enlace||ep.titulo);
+    }
+    function etiqueta(ep){
+      var tema=TEMAS[idDe(ep)];
+      if(tema) return tema;
+      return (ep.titulo||'')
+        .replace(/vincul\u00e1ndonos/ig,'')
+        .replace(/noelia\s*padin/ig,'')
+        .replace(/[|\u2013\u2014]/g,' ')
+        .replace(/\s+/g,' ')
+        .trim() || 'Programa';
+    }
+    function minutos(d){
+      if(!d) return '';
+      var p=String(d).split(':').map(Number);
+      var seg = p.length===3 ? p[0]*3600+p[1]*60+p[2] : (p.length===2 ? p[0]*60+p[1] : p[0]);
+      if(!seg) return '';
+      return Math.round(seg/60)+' min';
+    }
+    function fechaCorta(f){
+      var d=new Date(f);
+      if(isNaN(d)) return '';
+      return d.toLocaleDateString('es-AR',{day:'numeric',month:'short',year:'numeric'});
+    }
+
+    function mostrar(ep, reproducir){
+      if(ep.imagen){ elTapa.src=ep.imagen; } else { elTapa.removeAttribute('src'); }
+      elTapa.alt='Vincul\u00e1ndonos, '+etiqueta(ep);
+      elTitulo.textContent=etiqueta(ep);
+      var partes=[fechaCorta(ep.fecha), minutos(ep.duracion)].filter(Boolean);
+      elFecha.textContent=partes.join(' \u00b7 ');
+      if(elAudio.src!==ep.audio){ elAudio.src=ep.audio; }
+      if(ep.enlace){ elSpotify.href=ep.enlace; }
+      if(reproducir){ elAudio.play().catch(function(){}); }
+      [].forEach.call(elLista.querySelectorAll('.pod__item'), function(b){
+        b.setAttribute('aria-current', b.dataset.id===idDe(ep) ? 'true' : 'false');
+      });
+    }
+
+    function pintar(eps){
+      if(!eps || !eps.length) return;
+      pod.dataset.estado='listo';
+      elLista.innerHTML='';
+      eps.slice(1,6).forEach(function(ep){
+        var li=document.createElement('li');
+        var b=document.createElement('button');
+        b.type='button'; b.className='pod__item'; b.dataset.id=idDe(ep);
+        b.setAttribute('aria-current','false');
+        var s1=document.createElement('span'); s1.textContent=etiqueta(ep);
+        var t=document.createElement('time'); t.textContent=minutos(ep.duracion);
+        b.appendChild(s1); b.appendChild(t);
+        b.addEventListener('click', function(){ mostrar(ep, true); });
+        li.appendChild(b); elLista.appendChild(li);
+      });
+      mostrar(eps[0], false);
+    }
+
+    pintar(RESPALDO);
+    fetch(API, {headers:{'accept':'application/json'}})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){ if(d && d.episodios && d.episodios.length) pintar(d.episodios); })
+      .catch(function(){});
+  })();
+
+  // Carrusel horizontal
+  document.querySelectorAll('.carrusel__nav button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var pista = document.getElementById(b.dataset.pista);
+      if(!pista) return;
+      var card = pista.firstElementChild;
+      var paso = card ? card.getBoundingClientRect().width + 26 : 320;
+      pista.scrollBy({left: paso * Number(b.dataset.dir), behavior: 'smooth'});
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

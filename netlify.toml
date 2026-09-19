@@ -1,0 +1,24 @@
+# ============================================================================
+# Configuracion de Netlify para noeliapadin.com
+# ============================================================================
+
+[build]
+  # No hay build. Netlify publica tal cual lo que hay en /public
+  publish  = "public"
+  command  = ""
+  functions = "netlify/functions"
+
+# La landing pide /api/episodios. Esta redireccion lo manda a la funcion,
+# sin que la pagina tenga que saber nada de Netlify.
+[[redirects]]
+  from   = "/api/episodios"
+  to     = "/.netlify/functions/episodios"
+  status = 200
+
+# Cabeceras de seguridad basicas
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
